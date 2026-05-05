@@ -31,7 +31,55 @@ if (foodChoice === "1") {
 alert(`You chose ${selectedFood}!`)
 
 // Step 3 - Subtype choice
-// Your code goes here
+let foodSubtype = ""
+
+if (selectedFood === "Pizza") {
+  foodSubtype = prompt(`
+    Select a Pizza type:
+    1 - Vesuvio
+    2 - Pepperoni 
+    3 - Hawaiian
+    `)
+  if (foodSubtype === "1") foodSubtype = "Vesuvio"
+  else if (foodSubtype === "2") foodSubtype = "Pepperoni"
+  else if (foodSubtype === "3") foodSubtype = "Hawaiian"
+  else {
+    alert("Invalid choice! We'll give you our signature Pepperoni by default.")
+    foodSubtype = "Pepperoni"
+  }
+
+} else if (selectedFood === "Pasta") {
+  foodSubtype = prompt(`
+    Select a Pasta type:
+    1 - Carbonara
+    2 - Bolognese
+    3 - Veggie
+    `)
+  if (foodSubtype === "1") foodSubtype = "Carbonara"
+  else if (foodSubtype === "2") foodSubtype = "Bolognese"
+  else if (foodSubtype === "3") foodSubtype = "Veggie"
+  else {
+    alert("Invalid choice! We'll give you our signature Carbonara by default.")
+    foodSubtype = "Carbonara"
+  }
+
+} else if (selectedFood === "Salad") {
+  foodSubtype = prompt(`
+    Select a Salad type: 
+    1 - Caesar
+    2 - Chef
+    3 - Tuna
+    `)
+  if (foodSubtype === "1") foodSubtype = "Caeser"
+  else if (foodSubtype === "2") foodSubtype = "Chef"
+  else if (foodSubtype === "3") foodSubtype = "Tuna"
+  else {
+    alert("Invalid choice! We'll give you our signature Chef sallad by default.")
+    foodSubtype = "Chef"
+  }
+}
+
+alert(`Excellent choice, you ordered the ${foodSubtype}!`)
 
 // Step 4 - Age
 // Your code goes here
