@@ -4,7 +4,10 @@ An interactive pizza ordering bot built with Vanilla JavaScript.
 This project was developed as part of the Technigo Web Development program to practice logic, conditionals, and user interaction. 
 
 ## 🚀 Live Demo 
+Github Pages [https://lofstromfelicia.github.io/project-pizzabot-felicia/]
+
 [CLOUDFLARE-LINK HERE]
+
 
 ## ✨ Features
 * **Interactive Menu:** Users can choose between Pizza, Pasta, and Salad. 
