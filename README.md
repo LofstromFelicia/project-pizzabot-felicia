@@ -1,10 +1,29 @@
-# Pizzabot
+# 🍕 Javascript Pizzabot
 
-Replace this readme with your own information about the project. You can include things like:
+An interactive pizza ordering bot built with Vanilla JavaScript. 
+This project was developed as part of the Technigo Web Development program to practice logic, conditionals, and user interaction. 
 
-- Brief description of the assignment
-- How you approached the task, what tools and techniques you used, and how you planned it
-- If you had more time, what would be next?
+## 🚀 Live Demo 
+[CLOUDFLARE-LINK HERE]
 
-## View it live
-Every project should be deployed somewhere. Be sure to include the link to the deployed project so that the viewer can click around and see what it's all about.
+## ✨ Features
+* **Interactive Menu:** Users can choose between Pizza, Pasta, and Salad. 
+* **Nested Subtypes:** Each main dish has specific varieties (e.g., Vesuvio, Carbonara, Ceasar). 
+* **Dynamic Pricing:** The bot calculates prices based on the user's age. 
+* **Custom Family Size:** Added a special logic for "Family Size" orders. 
+* **Order Confirmation:** A final summary before the order is "sent" to the kitchen. 
+
+## 🛠️ Tech Stack 
+* **HTML 5** 
+* **CSS3** (Standard Technigo starter)
+* **JavaScript** (Variables, Conditionals, Template Literals, Prompts/Alerts)
+
+## 📖 What I Learned 
+During this project, I practiced: 
+1. **Logical Branching:** Using `if`, `else if`, and `else` to create complex decision trees. 
+2. **Nesting:** Placing conditionals inside each other to handle sub-menus. 
+3. **Debugging:** Using the Browser Console to identify and fix syntax errors (like the classic "Unexpected token" error).
+4. **Deployment:** Setting up a continuous deployment flow via Cloudflare Pages. 
+
+## 👩‍💻 Author 
+Felicia Löfström 
