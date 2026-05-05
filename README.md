@@ -6,7 +6,7 @@ This project was developed as part of the Technigo Web Development program to pr
 ## 🚀 Live Demo 
 Github Pages [https://lofstromfelicia.github.io/project-pizzabot-felicia/]
 
-[CLOUDFLARE-LINK HERE]
+CloudFlare [project-pizzabot-felicia.pages.dev]
 
 
 ## ✨ Features
