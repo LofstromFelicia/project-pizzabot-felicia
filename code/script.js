@@ -82,7 +82,29 @@ if (selectedFood === "Pizza") {
 alert(`Excellent choice, you ordered the ${foodSubtype}!`)
 
 // Step 4 - Age
-// Your code goes here
+const age = prompt("Is this food for a child, an adult or a family? Please enter your age (or type '99' for Family Size):")
+
+let size = ""
+let price = 0
+
+if (age >= 18 && age < 90) {
+  size = "One adult sized"
+  price = 150
+} else (age < 18) {
+  size = "One child sized"
+  price = 100
+} else if (age >= 90) {
+  size = "One giant family sized"
+  price = 350
+}
+
+const confirmation = prompt(`
+  ${size} ${foodSubtype} will be prepared for you. 
+  That will be ${price} kr.
+  Are you sure you want to order this?
+  1 - Yes
+  2 - No
+  `)
 
 // Step 5 - Order confirmation
 // Your code goes here
