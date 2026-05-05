@@ -90,7 +90,7 @@ let price = 0
 if (age >= 18 && age < 90) {
   size = "One adult sized"
   price = 150
-} else (age < 18) {
+} else if (age < 18) {
   size = "One child sized"
   price = 100
 } else if (age >= 90) {
@@ -107,4 +107,8 @@ const confirmation = prompt(`
   `)
 
 // Step 5 - Order confirmation
-// Your code goes here
+if (confirmation === "1") {
+  alert(`Thank you for your order, ${userName}! Your meal will be prepared. See you soon!`)
+} else {
+  alert("No problem, come back another time if you get hungry!")
+}
